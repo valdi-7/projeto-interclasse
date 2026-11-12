@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interclasse</title>
+<link rel="stylesheet" href= "style.css"/>
+</head>
+<body>
+<main>
+  <h1>Interclasse</h1>
+
+  <section class="card">
+    <h2>Marcar partida</h2>
+    <div class="times">
+      <div class="time">
+        <h3>Time A</h3>
+        <input id="nomeTimeA" class="nome-time" placeholder="Nome do time" autocomplete="off">
+        <input id="jogador1A" placeholder="Jogador 1 (Goleiro)" autocomplete="off">
+        <input id="jogador2A" placeholder="Jogador 2" autocomplete="off">
+        <input id="jogador3A" placeholder="Jogador 3" autocomplete="off">
+        <input id="jogador4A" placeholder="Jogador 4" autocomplete="off">
+        <input id="jogador5A" placeholder="Jogador 5" autocomplete="off">
+      </div>
+      <div class="time">
+        <h3>Time B</h3>
+        <input id="nomeTimeB" class="nome-time" placeholder="Nome do time" autocomplete="off">
+        <input id="jogador1B" placeholder="Jogador 1 (Goleiro)" autocomplete="off">
+        <input id="jogador2B" placeholder="Jogador 2" autocomplete="off">
+        <input id="jogador3B" placeholder="Jogador 3" autocomplete="off">
+        <input id="jogador4B" placeholder="Jogador 4" autocomplete="off">
+        <input id="jogador5B" placeholder="Jogador 5" autocomplete="off">
+      </div>
+    </div>
+    <div class="botoes">
+      <button type="button" id="marcPartida">Marcar partida</button>
+      <button type="button" id="verJogos" class="sec">Ver jogos do dia</button>
+      <button type="button" id="verTabela" class="sec">Ver tabela</button>
+    </div>
+  </section>
+
+  <div id="resultado"></div>
+<script src="main.js"></script>
+</body>
+</html>
