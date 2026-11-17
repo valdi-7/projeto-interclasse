@@ -44,3 +44,17 @@
   td:nth-child(3) { font-weight:800; }
   tr.lider td { background:var(--lider); }
   .legenda { margin:10px 0 0; font-size:.85rem; color:var(--muted); }
+  select { padding: 10px; font: inherit; color: inherit; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+.fase { margin: 18px 0 8px; font-size: 1.05rem; color: var(--ink); }
+.gol { text-align: center; font-size: 1.5rem; font-weight: 800; color: var(--placar); }
+.placar .vencedor { color: var(--placar); }
+.campeao { text-align: center; font-size: 1.4rem; font-weight: 800; }
+.gols { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.gols h3 { margin: 0 0 8px; color: var(--ink); }
+.gols .jogadores { grid-template-columns: 1fr; }
+.gols ul { padding-left: 0; }
+.gols li { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 8px 0; }
+.gols input[type="checkbox"] { width: 20px; height: 20px; }
+.gols input[type="number"] { width: 64px; padding: 6px; }
+.artilheiros th:nth-child(3), .artilheiros td:nth-child(3) { text-align: left; font-weight: 400; }
+.artilheiros td:nth-child(4) { font-weight: 800; }
