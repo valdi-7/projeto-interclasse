@@ -151,12 +151,4 @@ Os dados das partidas são armazenados em uma lista de objetos JavaScript. Cada 
 }
 ```
 
-### Principais campos
-
-- `fase`: indica a etapa do torneio. A fase inicial é `0`.
-- `pos`: define a posição do confronto dentro da fase.
-- `timeA` e `timeB`: guardam os nomes e jogadores dos times.
-- `placar`: guarda os gols marcados por cada lado.
-- `penaltis`: guarda o vencedor dos pênaltis.
-- `gols`: guarda os gols atribuídos a cada jogador.
 
